@@ -2,22 +2,21 @@ package com.gatesma.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * Copyright (C), 2020
- * FileName: PaymentMain8001
+ * FileName: EurekaMain7001
  * Author:   Marlon
  * Email: gatesma@foxmail.com
- * Date:     2020/3/15 12:52
- * Description: payment service 8001 服务
+ * Date:     2020/3/15 19:36
+ * Description:
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class PaymentMain8001 {
-
+@EnableEurekaServer
+public class EurekaMain7001 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain8001.class, args);
+        SpringApplication.run(EurekaMain7001.class, args);
     }
 
 }
